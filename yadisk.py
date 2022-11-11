@@ -29,6 +29,6 @@ def upload_file_to_disk(self, disk_file_path, filename):
  
 if __name__ == '__main__':
     path_to_file = ('netology/test.txt', 'test.txt')
-    token = 'y0_AgAAAABadk2tAADLWwAAAADTgxJMxtuvJnygS-iv9TrBtvZEAZxVEzw'
+    token = ' '
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
